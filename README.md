@@ -1,8 +1,8 @@
 # PyTest Reference Formatter (PyRF)
-![GitHub top language](https://img.shields.io/github/languages/top/alexanderbodin/pytest-reference-formatter.svg)
-![GitHub](https://img.shields.io/github/license/alexanderbodin/pytest-reference-formatter)
-![GitHub last commit](https://img.shields.io/github/last-commit/alexanderbodin/pytest-reference-formatter.svg)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/alexanderbodin/pytest-reference-formatter.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/PaesslerAG/pytest-reference-formatter.svg)
+![GitHub](https://img.shields.io/github/license/PaesslerAG/pytest-reference-formatter)
+![GitHub last commit](https://img.shields.io/github/last-commit/PaesslerAG/pytest-reference-formatter.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/PaesslerAG/pytest-reference-formatter.svg)
 
 
 The PyTest Reference Formatter (PyRF) changes a string (e.g copied from PyCharm's "Copy Refrence" function) to match the pytest requirements.
@@ -11,7 +11,7 @@ The PyTest Reference Formatter (PyRF) changes a string (e.g copied from PyCharm'
 
 Clone this repository:
 
-`git clone https://github.com/AlexanderBodin/pytest-reference-formatter.git`
+`git clone https://github.com/PaesslerAG/pytest-reference-formatter.git`
 
 Navigate into the repository:
 
@@ -39,4 +39,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT 2019 Paessler AG](https://github.com/AlexanderBodin/pytest-reference-formatter/blob/master/LICENSE)
+[MIT 2019 Paessler AG](https://github.com/PaesslerAG/pytest-reference-formatter/blob/master/LICENSE)
