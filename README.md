@@ -11,11 +11,11 @@ The PyTest Reference Formatter (PyRF) changes a string (e.g copied from PyCharm'
 
 Clone this repository:
 
-> `git clone https://github.com/AlexanderBodin/pytest-reference-formatter.git`
+`git clone https://github.com/AlexanderBodin/pytest-reference-formatter.git`
 
 Navigate into the repository:
 
->`cd  pytest-reference-formatter`
+`cd  pytest-reference-formatter`
 
 
 ## Usage
