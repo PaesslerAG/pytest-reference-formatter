@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import re
 import sys
 
@@ -70,4 +72,4 @@ def extend_string(extend_element, before_module):
 
 
 if __name__ == '__main__':
-    print handling_references(sys.argv[1:])
+    print(handling_references(sys.argv[1:]))
