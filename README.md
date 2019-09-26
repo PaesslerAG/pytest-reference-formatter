@@ -39,4 +39,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT 2019 Paessler AG](https://github.com/PaesslerAG/pytest-reference-formatter/blob/master/LICENSE)
+[BSD 2019 Paessler AG BIS Team](https://github.com/PaesslerAG/pytest-reference-formatter/blob/master/LICENSE)
