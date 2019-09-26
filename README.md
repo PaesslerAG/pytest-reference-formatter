@@ -39,4 +39,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://github.com/AlexanderBodin/truelies/blob/master/LICENSE)
+[MIT](https://github.com/AlexanderBodin/pytest-reference-formatter/blob/master/LICENSE)
