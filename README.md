@@ -1,6 +1,6 @@
 # PyTest Reference Formatter (PyRF)
 ![GitHub top language](https://img.shields.io/github/languages/top/alexanderbodin/pytest-reference-formatter.svg)
-![GitHub](https://img.shields.io/github/license/alexanderbodin/pytest-reference-formatter.svg)
+![GitHub](https://img.shields.io/github/license/alexanderbodin/pytest-reference-formatter)
 ![GitHub last commit](https://img.shields.io/github/last-commit/alexanderbodin/pytest-reference-formatter.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/alexanderbodin/pytest-reference-formatter.svg)
 
