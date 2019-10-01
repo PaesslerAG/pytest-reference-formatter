@@ -5,7 +5,7 @@ TL;DR: Input string will be changed to match pytest requirements.
 - **Return:** List of strings
 
 ## Details
-- The [formatter](formatter.py) changes a string (e.g. copied from the "Copy Reference" function from PyCharm) to match the pytest requirements.
+- The [formatter](pytest_reference_formatter/formatter.py) changes a string (e.g. copied from the "Copy Reference" function from PyCharm) to match the pytest requirements.
 - The script can handle multiple input strings seperated by a space and returns a modified list of strings. 
 
 
@@ -17,5 +17,5 @@ TL;DR: Input string will be changed to match pytest requirements.
 
     ['django-sites/repo/core/tests/test_account.py::TestCase', 'django-sites/repo2/core2/tests2/test_account2.py::TestCase2::test_function']
     
-The root directory *django-sites* seen at *output* is a variable that can be changed inside the [formatter](formatter.py).
+The root directory *django-sites* seen at *output* is a variable that can be changed inside the [formatter](pytest_reference_formatter/formatter.py).
 

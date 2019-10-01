@@ -1,0 +1,30 @@
+dist: xenial
+language: python
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y make sed
+install:
+  - pip install tox
+matrix:
+  include:
+    - python: "2.7"
+      env: TOX_ENVS=py27
+    - python: "3.5"
+      env: TOX_ENVS=py35
+    - python: "3.6"
+      env: TOX_ENVS=py36
+    - python: "3.7"
+      env: TOX_ENVS=py37
+script:
+  - tox -e $TOX_ENVS
+deploy:
+  provider: pypi
+  user: "paessler_bis"
+  password:
+    secure: "UWaKk26T4zpkBHAMM6R9isZsgQPQd3n0bZoZUovKUBe6BwqxZU+COuKjgQ4sxydiCHGLDjG2R0XrmjrvrbdueONVPzsE/kOdxCJhMbXUosdu+daMDJ1BoOfgXQE0eLw9Z4/iEEjW7UDLzvBIPSb5ZgsMvjJxC46ZwUuUkys55jmzpJuWva/u0teugzhToL+QUHZRumkgA5VL5jqd2DPQN+o8DXcRwPaxGsLOhOS4U2OYGAiVhXyQOx6VJJtmweJ099S46Oi5sqO17V2kq1sEUVEodkRbrwaAz7fypznycMgU5jMCWw50/xoS1Gbf0r0cLLn+wpIxuVTagcHpg8bypxtEHV6fKJlqvDyc/BwtTnXeP4CMfWSchg4BcpdkjjFKRD6RTL8Ong44tiTv1fi/JMp0J/IWMYlPTsjx7XW/ML+oDZYddDc6+gkCttfgS9OfJ7srSxh02TaIKLL8wLUpjP9aHaAFbSU7g79SiNQz4ePIL/NkOvsq0B0xZW2h+qM6PgRtyuVYmSZOPqQeWasQZC6a5lCk+GJF/Yy7R3d3g4d8n8WipjTR1spA2mOLnmJoIVNgY6n6OFv417sR9/52ajCnzNRlRZTaaXJPx8qYsBmlXAuwu2i2QC3Hrn9H+fj1uX8TVvQYBdQ2kWBfRAgpo2cWP+bE3mDY0CM2tsSY/9Q="
+  distributions: sdist bdist_wheel
+  on:
+    tags: true
+    branch:
+      - master
+      - /v?(\d+\.)?(\d+\.)?(\*|\d+)$/
