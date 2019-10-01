@@ -69,5 +69,19 @@ def extend_string(extend_element, before_module):
     return extend_element
 
 
+def format_sys_args(sys_args):
+    """ This comes handy when you integrate it into a python script or django's manage.py.
+    For example:
+    ```python
+        if __name__ == "__main__":
+            if 'test' in sys.argv and 'test-group' not in str(sys.argv):
+                execute_from_command_line(format_sys_args(sys.argv))
+            else:
+                execute_from_command_line(sys.argv)
+    ```
+    """
+    return sys_args[:2] + handling_references(sys_args[2:])
+
+
 if __name__ == '__main__':
     print(handling_references(sys.argv[1:]))
