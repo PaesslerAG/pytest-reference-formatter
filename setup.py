@@ -1,11 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
+import sys
+
 import pytest_reference_formatter
 from setuptools import setup
 
 version = pytest_reference_formatter.__version__
 description = "Conveniently run pytest with a dot-formatted test reference."
+
+if sys.argv[-1] == 'publish':
+    os.system('make release')
+    sys.exit()
 
 setup(
     name='pytest_reference_formatter',
