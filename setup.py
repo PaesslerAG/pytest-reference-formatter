@@ -28,13 +28,13 @@ setup(
     install_requires=[
         'python_version>="2.7"',
     ],
-    license="MIT",
+    license="BSD 3-Clause License",
     zip_safe=False,
     keywords='pytest-reference-formatter',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: BSD 3-Clause License',
         'Natural Language :: English',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
